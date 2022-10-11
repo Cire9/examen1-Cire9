@@ -9,7 +9,7 @@ const path = require('path');
   
 // Check if the file exists
 let DirExists = fs.existsSync('log_programa');
-console.log( DirExists, "El directori s'ha trobat a la ruta" + );
+console.log( DirExists, "El directori s'ha trobat a la ruta");
 if (!DirExists) {
     console.log("Crean directori...")
 
